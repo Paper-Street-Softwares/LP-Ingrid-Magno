@@ -66,7 +66,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Dra. Ingrid Magno",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  emailSecundario: "contatoingridmagno@gmail.com", // Email desejado pelo cliente
   domain: "ingridmagnoprevidenciario.com.br", // Sem "www"
   phone: {
     ddd: "91",
