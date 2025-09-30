@@ -19,11 +19,11 @@
   },
   "hero": {
     "miniTag": "ADVOGADA EM BELÉM - PA",
-    "title": "Seus direitos valem mais <span class=\"text-primary font-bold\">que promessas</span>",
-    "subtitle": "Enfrentamos INSS, planos e SUS para garantir benefícios, saúde e justiça de verdade",
-    "ctaButtonText": "Fazer valer meus direitos",
+    "title": "Seus direitos não podem esperar —  <span class=\"text-primary font-bold\">nós garantimos eles por você</span>",
+    "subtitle": "Entramos com ações contra o INSS, planos de saúde e SUS para que você receba benefícios, tratamentos e indenizações com rapidez, estratégia e resultado.",
+    "ctaButtonText": "Falar com a advogada agora",
     "obsHero": {
-      "text": "Atendimento presencial e online para todo Brasil"
+      "text": "Atendimento presencial e online para todo o Brasil — direto no WhatsApp e sem burocracia."
     }
   },
   "features": {
