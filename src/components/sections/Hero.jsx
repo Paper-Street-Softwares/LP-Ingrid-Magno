@@ -44,7 +44,10 @@ export default function Hero({
           <div
             className={`flex justify-center desktop1:justify-start font-bold leading-[35px] phone3:leading-[38px] tablet1:leading-[50px] desktop1:leading-[50px] desktop2:leading-[55px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title6 ${titleTextColor}`}
           >
-            <h1 dangerouslySetInnerHTML={{ __html: t("hero.title") }} />
+            <h1
+              className="font-mainFont font-bold"
+              dangerouslySetInnerHTML={{ __html: t("hero.title") }}
+            />
           </div>
         </MotionDivDownToUp>
 
@@ -139,7 +142,7 @@ export default function Hero({
           <div className="relative z-10 flex w-full items-left">
             <div className="w-full text-secondary justify-evenly">
               <div className="h-[130px] phone2:h-[120px] phone3:h-[130px] tablet1:h-[150px] desktop3:h-[120px]" />
-              <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] desktop1:pt-[68px] desktop1:pb-[96px] ">
+              <div className="flex flex-col-reverse gap-[40px] font-mainFont desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] desktop1:pt-[68px] desktop1:pb-[96px] ">
                 {HeroContent}
                 {/* Imagem principal */}
                 <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
