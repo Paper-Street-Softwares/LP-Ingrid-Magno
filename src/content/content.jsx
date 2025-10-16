@@ -4,6 +4,7 @@ import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.png";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
+import Socio1 from "../assets/imgs/team/socio1.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 
@@ -951,6 +952,43 @@ const content = {
             ),
             link3: "https://wa.me/+556596241854",
           },
+        },
+      },
+    },
+    socios: {
+      socio1: {
+        image: Socio1,
+        nome: "Ingrid",
+        rota: "Ingrid",
+        sobrenome: "Magno",
+        empresa: "",
+        oab: "OAB/PA 33.139",
+        função: "Advogada ",
+        telefone: "",
+        whatsapp: "",
+        email: "",
+        github: "",
+        description: (
+          <p>
+            Especialista em Direito Previdenciário e Cível. <br /> <br />
+            Atendimento humanizado e estratégico em todo o Brasil.
+          </p>
+        ),
+        social: {
+          instagram: "",
+          facebook: "",
+          linkedin: "",
+          x: "",
+          tiktok: "",
+          githubSocial: "",
+          whatsappSocial: "91993034905",
+          emailSocial: "contatoingridmagno@gmail.com",
+        },
+        empresaSocial: {
+          instagram: "",
+          facebook: "",
+          linkedin: "",
+          site: "",
         },
       },
     },
